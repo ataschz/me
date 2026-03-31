@@ -16,13 +16,15 @@ function Home() {
         Ata Herrera
       </h1>
       <p className="mb-2 text-zinc-500 dark:text-zinc-400">
-        Software Engineer &amp; Entrepreneur
+        Entrepreneur &amp; Engineer
       </p>
       <p className="mb-4">
-        {`I'm a Software Engineer from Córdoba, Argentina, building at the intersection of AI and real business problems. Currently co-founder and CTO of Trama, where we're putting AI agents to work for travel agencies.`}
+        {
+          "I build products at the intersection of AI and real business problems. From Córdoba, Argentina — currently building Trama, Chelco, and Workffee."
+        }
       </p>
       <p className="mb-4">
-        {`I've spent the last few years deep in agentic systems — designing, experimenting with, and shipping products where AI actually does the work, not just the talking. Before Trama, I led an AI division at a US company and have been consulting on generative AI architecture independently.`}
+        {`I've spent the last few years deep in agentic systems — designing, experimenting with, and shipping products where AI actually does the work, not just the talking. Before starting my own things, I led an AI division at a US company and consulted on generative AI architecture independently.`}
       </p>
       <p className="mb-4">I like building things that ship.</p>
       <div className="my-8">

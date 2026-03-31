@@ -1,11 +1,10 @@
 {
   "root": true,
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-  "extends": ["ultracite/biome/core"],
+  "extends": ["ultracite/biome/core", "ultracite/biome/remix"],
   "linter": {
     "rules": {
       "style": {
-        // TanStack Router uses $param and [.]ext naming conventions
         "useFilenamingConvention": {
           "level": "error",
           "options": {
@@ -13,11 +12,9 @@
             "filenameCases": ["kebab-case", "camelCase"]
           }
         },
-        // Not using Next.js — <head> is valid in TanStack Start
         "noHeadElement": "off"
       },
       "performance": {
-        // Not using Next.js
         "noImgElement": "off"
       }
     }

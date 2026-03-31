@@ -21,9 +21,9 @@ export const Route = createRootRoute({
       { name: "apple-mobile-web-app-title", content: "Ata" },
       { name: "theme-color", content: "#09090b" },
       ...seo({
-        title: "Ata Herrera — Software Engineer & Entrepreneur",
+        title: "Ata Herrera — Entrepreneur & Engineer",
         description:
-          "Software Engineer from Córdoba, Argentina. Co-founder & CTO of Trama. Building AI agents for real business problems.",
+          "Entrepreneur & Engineer from Córdoba, Argentina. Building Trama, Chelco, and Workffee. Products where AI does the work, not just the talking.",
         url: baseUrl,
       }),
     ],
