@@ -2,7 +2,7 @@ import { Link } from "@tanstack/react-router";
 
 const navItems = [
   { path: "/", name: "home" },
-  { path: "/blog", name: "writing" },
+  { path: "/writing", name: "writing" },
 ] as const;
 
 export function Navbar() {

@@ -3,16 +3,16 @@ import { BlogPosts } from "~/components/blog-posts";
 import { baseUrl, getSubstackPosts } from "~/utils/blog";
 import { seo } from "~/utils/seo";
 
-export const Route = createFileRoute("/blog/")({
+export const Route = createFileRoute("/writing/")({
   loader: () => getSubstackPosts(),
   head: () => ({
     meta: seo({
       title: "Publicaciones — Ata Herrera",
       description:
         "Artículos sobre AI, agentic systems, emprendimiento y desarrollo de software por Ata Herrera.",
-      url: `${baseUrl}/blog`,
+      url: `${baseUrl}/writing`,
     }),
-    links: [{ rel: "canonical", href: `${baseUrl}/blog` }],
+    links: [{ rel: "canonical", href: `${baseUrl}/writing` }],
   }),
   component: BlogIndex,
 });
