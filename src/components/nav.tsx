@@ -13,14 +13,14 @@ export function Navbar() {
           className="fade relative flex scroll-pr-6 flex-row items-start px-0 pb-0 md:relative md:overflow-auto"
           id="nav"
         >
-          <div className="flex flex-row space-x-0 pr-10">
+          <div className="flex flex-row flex-wrap gap-0">
             {navItems.map(({ path, name }) => (
               <Link
                 activeOptions={{ exact: path === "/" }}
                 activeProps={{
                   className: "font-bold",
                 }}
-                className="relative m-1 flex px-2 py-1 align-middle transition-all hover:text-zinc-500 dark:hover:text-zinc-400"
+                className="relative m-1 flex whitespace-nowrap px-2 py-1 align-middle transition-all hover:text-zinc-500 dark:hover:text-zinc-400"
                 key={path}
                 to={path}
               >
@@ -28,7 +28,7 @@ export function Navbar() {
               </Link>
             ))}
             <a
-              className="relative m-1 flex px-2 py-1 align-middle transition-all hover:text-zinc-500 dark:hover:text-zinc-400"
+              className="relative m-1 flex whitespace-nowrap px-2 py-1 align-middle transition-all hover:text-zinc-500 dark:hover:text-zinc-400"
               href="https://trama.so?utm_source=ataschz.com&utm_medium=web&utm_campaign=nav"
               rel="noopener noreferrer"
               target="_blank"
@@ -36,7 +36,7 @@ export function Navbar() {
               🧶 trama
             </a>
             <a
-              className="relative m-1 flex px-2 py-1 align-middle transition-all hover:text-zinc-500 dark:hover:text-zinc-400"
+              className="relative m-1 flex whitespace-nowrap px-2 py-1 align-middle transition-all hover:text-zinc-500 dark:hover:text-zinc-400"
               href="https://chelco.studio?utm_source=ataschz.com&utm_medium=web&utm_campaign=nav"
               rel="noopener noreferrer"
               target="_blank"
@@ -44,7 +44,7 @@ export function Navbar() {
               🦎 chelco
             </a>
             <a
-              className="relative m-1 flex px-2 py-1 align-middle transition-all hover:text-zinc-500 dark:hover:text-zinc-400"
+              className="relative m-1 flex whitespace-nowrap px-2 py-1 align-middle transition-all hover:text-zinc-500 dark:hover:text-zinc-400"
               href="https://workffee.com?utm_source=ataschz.com&utm_medium=web&utm_campaign=nav"
               rel="noopener noreferrer"
               target="_blank"
