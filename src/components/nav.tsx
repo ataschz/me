@@ -43,6 +43,14 @@ export function Navbar() {
             >
               🦎 chelco
             </a>
+            <a
+              className="relative m-1 flex px-2 py-1 align-middle transition-all hover:text-zinc-500 dark:hover:text-zinc-400"
+              href="https://workffee.com?utm_source=ataschz.com&utm_medium=web&utm_campaign=nav"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              ☕️ workffee
+            </a>
           </div>
         </nav>
       </div>
