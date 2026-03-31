@@ -19,9 +19,36 @@ function Home() {
         Entrepreneur &amp; Engineer
       </p>
       <p className="mb-4">
+        {"I spend most of my time building "}
+        <a
+          className="underline decoration-zinc-400 underline-offset-2 hover:decoration-zinc-800 dark:decoration-zinc-600 dark:hover:decoration-zinc-300"
+          href="https://trama.so?utm_source=ataschz.com&utm_medium=web&utm_campaign=bio"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Trama
+        </a>
+        {" — AI agents for travel agencies. Through "}
+        <a
+          className="underline decoration-zinc-400 underline-offset-2 hover:decoration-zinc-800 dark:decoration-zinc-600 dark:hover:decoration-zinc-300"
+          href="https://chelco.studio?utm_source=ataschz.com&utm_medium=web&utm_campaign=bio"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Chelco
+        </a>
         {
-          "I spend most of my time building Trama — AI agents for travel agencies. Through Chelco, I help companies that need consulting on agentic apps and generative AI. In my free time, I work on Workffee."
+          ", I help companies that need consulting on agentic apps and generative AI. In my free time, I work on "
         }
+        <a
+          className="underline decoration-zinc-400 underline-offset-2 hover:decoration-zinc-800 dark:decoration-zinc-600 dark:hover:decoration-zinc-300"
+          href="https://workffee.com?utm_source=ataschz.com&utm_medium=web&utm_campaign=bio"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Workffee
+        </a>
+        .
       </p>
       <p className="mb-4">
         {
