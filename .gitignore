@@ -1,19 +1,13 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
 /node_modules
-/.pnp
-.pnp.js
 
 # testing
 /coverage
 
-# next.js
-/.next/
-/out/
-
-# production
+# build output
+.output
 /build
+dist
 
 # misc
 .DS_Store
@@ -28,10 +22,15 @@ yarn-error.log*
 
 # env files
 .env
+.env.*
 
-# vercel
-.vercel
+# cloudflare
+.wrangler
+.dev.vars
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
+
+# tanstack
+.tanstack
+src/routeTree.gen.ts
