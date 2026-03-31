@@ -23,7 +23,7 @@ export const Route = createRootRoute({
       ...seo({
         title: "Ata Herrera — Entrepreneur & Engineer",
         description:
-          "Entrepreneur & Engineer from Córdoba, Argentina. Building Trama, Chelco, and Workffee. Products where AI does the work, not just the talking.",
+          "Entrepreneur & Engineer from Córdoba, Argentina. Building Trama (AI agents for travel), Chelco (AI consulting), and Workffee.",
         url: baseUrl,
       }),
     ],

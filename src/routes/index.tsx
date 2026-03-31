@@ -20,11 +20,13 @@ function Home() {
       </p>
       <p className="mb-4">
         {
-          "I build products at the intersection of AI and real business problems. From Córdoba, Argentina — currently building Trama, Chelco, and Workffee."
+          "I spend most of my time building Trama — AI agents for travel agencies. Through Chelco, I help companies that need consulting on agentic apps and generative AI. In my free time, I work on Workffee."
         }
       </p>
       <p className="mb-4">
-        {`I've spent the last few years deep in agentic systems — designing, experimenting with, and shipping products where AI actually does the work, not just the talking. Before starting my own things, I led an AI division at a US company and consulted on generative AI architecture independently.`}
+        {
+          "Before starting my own things, I led an AI division at a US company and consulted on generative AI architecture independently."
+        }
       </p>
       <p className="mb-4">I like building things that ship.</p>
       <div className="my-8">
