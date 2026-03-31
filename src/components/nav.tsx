@@ -20,7 +20,7 @@ export function Navbar() {
                 activeProps={{
                   className: "font-bold",
                 }}
-                className="relative m-1 flex px-2 py-1 align-middle transition-all hover:text-zinc-200 dark:hover:text-zinc-100"
+                className="relative m-1 flex px-2 py-1 align-middle transition-all hover:text-zinc-500 dark:hover:text-zinc-400"
                 key={path}
                 to={path}
               >
@@ -28,12 +28,20 @@ export function Navbar() {
               </Link>
             ))}
             <a
-              className="relative m-1 flex px-2 py-1 align-middle transition-all hover:text-zinc-200 dark:hover:text-zinc-100"
+              className="relative m-1 flex px-2 py-1 align-middle transition-all hover:text-zinc-500 dark:hover:text-zinc-400"
               href="https://trama.so?utm_source=ataschz.com&utm_medium=web&utm_campaign=nav"
               rel="noopener noreferrer"
               target="_blank"
             >
               🧶 trama
+            </a>
+            <a
+              className="relative m-1 flex px-2 py-1 align-middle transition-all hover:text-zinc-500 dark:hover:text-zinc-400"
+              href="https://chelco.studio?utm_source=ataschz.com&utm_medium=web&utm_campaign=nav"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              🦎 chelco
             </a>
           </div>
         </nav>

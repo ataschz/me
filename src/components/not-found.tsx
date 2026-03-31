@@ -11,7 +11,7 @@ export function NotFound({ children }: { children?: ReactNode }) {
         {children || <p>The page you are looking for does not exist.</p>}
       </div>
       <Link
-        className="text-blue-600 underline hover:text-blue-800 dark:text-blue-400"
+        className="text-zinc-500 underline hover:text-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-100"
         to="/"
       >
         Go home

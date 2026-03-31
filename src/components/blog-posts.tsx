@@ -31,7 +31,7 @@ export function BlogPosts({ posts }: { posts: SubstackPost[] }) {
             <p className="shrink-0 text-zinc-500 tabular-nums dark:text-zinc-400">
               {formatDate(post.publishedAt)}
             </p>
-            <p className="text-zinc-100 tracking-tight dark:text-zinc-100">
+            <p className="text-zinc-900 tracking-tight dark:text-zinc-100">
               {post.title}
             </p>
           </div>

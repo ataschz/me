@@ -32,7 +32,7 @@ export function Footer() {
         {links.map(({ href, label }) => (
           <li key={label}>
             <a
-              className="flex items-center transition-all hover:text-zinc-200 dark:hover:text-zinc-100"
+              className="flex items-center transition-all hover:text-zinc-800 dark:hover:text-zinc-100"
               href={href}
               rel="noopener noreferrer"
               target="_blank"
